@@ -1,0 +1,89 @@
+/* Wanted to start off with all of 
+my text centered */
+
+* {
+    text-align: center;
+}
+
+.block-right {
+    display: inline-flex;
+    padding: 3%;
+}
+
+/* i am going to leave this here as is but
+i realized that these couldve actually just
+been 1 .block {} to use less code */
+
+.block-left {
+    display: inline-flex;
+    padding: 3%;
+}
+
+footer {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+
+/* i made a pretty sweet rounded background
+block that i applied to multiple articles */
+
+.background-block {
+    background: rgba(43, 42, 42, 1.00);
+    border-radius: 25px;
+    width: 900px;
+    margin: 1%;
+    padding: 1%;
+    position: inherit;
+    left: 500px;
+}
+
+/* natural easy to read white to pop off 
+the darker background block */
+
+p {
+    color: ghostwhite;
+    font-size: 25px;
+    font-family: 'nunito';
+}
+
+/* combined the h1 and h3 tags throughout
+the html file to keep the color pallet */
+
+h1, h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #EFDD18;
+    font-size: 32px;
+}
+
+/* ul here to remove bullet points 
+because this isnt a shopping list */
+
+ul {
+    list-style: none;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+hr {
+    color: floralwhite;
+}
+
+/* this was to color the links down in
+the footer the email does not change for
+me from pink so i left it as is */
+
+.link {
+    color: #ED89AD;
+}
+h2, a:visited {
+    color: aqua; 
+}
+a:active {
+    color: firebrick;
+}
+
