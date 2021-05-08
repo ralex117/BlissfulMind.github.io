@@ -5,8 +5,13 @@ my text centered */
     text-align: center;
 }
 
+body {
+    background-image: "images/colorful-background.jpg";
+}
+
+}
 .block-right {
-    display: inline-flex;
+    display: flex;
     padding: 3%;
 }
 
@@ -17,6 +22,10 @@ been 1 .block {} to use less code */
 .block-left {
     display: inline-flex;
     padding: 3%;
+}
+
+header {
+    background-color: rgba(43, 42, 42, .70);
 }
 
 footer {
@@ -80,10 +89,17 @@ me from pink so i left it as is */
 .link {
     color: #ED89AD;
 }
+
 h2, a:visited {
     color: aqua; 
 }
+
+a:hover {
+    color: #4FFF00;
+}
+
 a:active {
     color: firebrick;
 }
+
 
