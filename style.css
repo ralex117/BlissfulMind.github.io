@@ -57,6 +57,11 @@ p {
     font-family: 'nunito';
 }
 
+#hobbies {
+    color: ghostwhite;
+    font-size: 25px;
+    font-family: 'nunito';
+}
 /* combined the h1 and h3 tags throughout
 the html file to keep the color pallet */
 
