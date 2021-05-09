@@ -102,4 +102,10 @@ a:active {
     color: firebrick;
 }
 
-
+.map-adjustment {
+    width: 400px;
+    height: 400px;
+}
+.height-adjustment {
+    height: 700px;
+}
